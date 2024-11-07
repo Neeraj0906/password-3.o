@@ -9,14 +9,14 @@ const App = () => {
     return (
         
         <>
-            <BrowserRouter>
+           
             <div>
             <Register />
             <Login />
             <ForgotPassword />
             <ResetPassword />
             </div>
-            </BrowserRouter>
+            
             
             
             

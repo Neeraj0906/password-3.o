@@ -7,12 +7,7 @@ import Login from "./components/Login";
 
 const App = () => {
     return (
-        // <div className="App">
-        //     <ForgotPassword />
-        //     <ResetPassword />
-        //     <Register />
-        //     <Login />
-        // </div>
+        
         <>
             
             <nav>

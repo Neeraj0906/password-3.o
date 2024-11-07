@@ -10,19 +10,15 @@ const App = () => {
         
         <>
             
-            <nav>
-                <a href="/login">login</a>
-                <a href="/">register</a>
-                <a href="/forgetpassword">Forgetpassword</a>
-
-            </nav><Router>
-                <Routes>
-                    <Route path="/" element={<Register />} /> {/* 👈 Renders at /app/ */}
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/forgetpassword" element={<ForgotPassword />} />
-                    <Route path="/resetpassword/:token" element={<ResetPassword />} />
-                </Routes>
-            </Router></>
+            
+            
+            <div>
+            <Register />
+            <Login />
+            <ForgotPassword />
+            <ResetPassword />
+            </div>
+            </>
     );
 };
 
